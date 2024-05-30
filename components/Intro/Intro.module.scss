@@ -1,0 +1,56 @@
+#intro {
+    padding: 4rem 0;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: #fff;
+    width: 85%;
+    margin: auto;
+    border-radius: 20%;
+}
+
+#intro .imgRight {
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    margin-left: auto
+}
+
+.a-panel {
+    white-space: normal !important;
+
+
+}
+
+.rs-panel {
+    min-height: 55px;
+}
+
+
+@media all and (max-width: 768px) {
+    #intro {
+        border-radius: 0;
+        width: 100%;
+        padding: 6rem 0
+    }
+}
+
+
+
+
+
+#features {
+    padding: 6rem 0;
+
+}
+
+#features .imgLeft {
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    margin-left: auto
+}
+
+@media all and (max-width: 768px) {
+    #features {
+        padding: 0 0 6rem 0
+    }
+}
